@@ -1,0 +1,142 @@
+  body {
+    min-height: 0;
+    display: inline-block;
+    position: relative;
+    left: 50%;
+    margin: 20px 0;
+    transform: translate(-50%, 0);
+    border: 2px solid #dfdfdf;
+    background-color: #fefffa;
+    max-width: 650px;
+    padding: 60px;
+    font-family: 'Roboto', sans-serif;
+   
+  } 
+  
+ h2 {
+   color: #a1a1a1;
+   font-size: 20px;
+   margin: 6px;
+ }
+  
+  h3 {
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 400;
+    padding-bottom: 6px;
+    display: block;
+    background-color: #fefffa;
+    margin: 0;
+    cursor: pointer;
+    color: black;
+  }
+  
+  p {
+    color:black;
+    font-size: 17px;
+    line-height: 20px;
+    position: relative;
+    overflow: hidden;
+    max-height: 800px;
+    opacity: 1;
+    transform: translate(0, 0);
+    margin-top: 14px;
+    margin: 0px;
+    z-index: 2;
+  }
+
+  .blue {
+    color: #2230ab;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  .green {
+    color: #2e6623;
+    font-size: 14px;
+  }
+
+  #blue {
+    color: #2230ab;
+  }
+  ul {
+    list-style: none;
+    perspective: 900;
+    padding: 0;
+    margin: 0;
+  }
+  ul li {
+    position: relative;
+    padding: 0;
+    margin: 0;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4PX;
+    padding-bottom: 4px;
+    border: 1px solid #e5e5e5;
+  }
+
+  ul li:last-child {
+    border:  1px solid #e5e5e5;
+  }
+
+  
+  ul li i {
+    position: absolute;
+    transform: translate(-6px, 0);
+    margin-top: 16px;
+    right: 0;
+  }
+
+  ul li:active {
+    border-color: #84befc;
+    -webkit-box-shadow: 1px 1px 5px 1px rgba(132,190,252,1);
+    -moz-box-shadow: 1px 1px 5px 1px rgba(132,190,252,1); 
+    box-shadow: 1px 1px 5px 1px rgba(132,190,252,1);
+    border-radius: 4px;
+  }
+
+
+  ul li i:before, ul li i:after {
+    content: "";
+    position: absolute;
+    background-color: #a1a1a1;
+    width: 2px;
+    height: 9px;
+    right: 16px;
+    bottom: 4px;
+  }
+  ul li i:before {
+    transform: translate(-2px, 0) rotate(45deg);
+  }
+  ul li i:after {
+    transform: translate(2px, 0) rotate(-45deg);
+  }
+  ul li input[type=checkbox] {
+    position: absolute;
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0;
+  }
+  ul li input[type=checkbox]:checked ~ p {
+    margin-top: 0;
+    max-height: 0;
+    opacity: 0;
+    transform: translate(0, 50%);
+  }
+  ul li input[type=checkbox]:checked ~ i:before {
+    transform: translate(2px, 0) rotate(45deg);
+  }
+  ul li input[type=checkbox]:checked ~ i:after {
+    transform: translate(-2px, 0) rotate(-45deg);
+  }
+
+ 
+.feedback {
+  color: #777777;
+  float: right;
+  font-size: 12px;
+}
+  

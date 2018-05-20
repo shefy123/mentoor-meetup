@@ -1,0 +1,108 @@
+body,html {
+    height: 100%;
+    margin: 0px;
+    background-image: url(images/image1.jpg);
+    background-size: cover;
+    
+}
+
+
+header {
+    background-color: black;
+  
+}
+img {
+    width: 80px;
+    height: 80px;
+    border: 2px solid black;
+    border-radius: 4px;
+    float: right;
+    -webkit-transition: all 1s ease;
+    transition: all  1s ease;
+
+}
+h1 {
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 80px;
+    background-image: linear-gradient(to right,grey, orange 50%, pink);
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin: 0px;
+    margin-bottom: 16px;
+    font: bold;
+    font-size: 80px;
+    padding: 16px;
+    border-bottom: 10px solid#f4b642;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(NaN,13,NaN,1);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(NaN,13,NaN,1);
+    box-shadow: 1px 1px 5px 0px rgba(NaN,13,NaN,1);  
+      
+}
+
+.abc {
+    position: absolute;
+    top:180px;
+    right: 40px;
+    padding: 16px;
+    height: 880px;
+    width: 400px;
+    display: inline-block;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 36px;
+}
+
+.ab {
+    position: absolute;
+    top:180px;
+    left: 40px;
+    padding: 16px;
+    height: 880px;
+    width: 400px;
+    display: inline-block;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 36px;
+}
+
+.ac {
+    position: absolute;
+    top:180px;
+    right: 560px;
+    padding: 16px;
+    height: 880px;
+    width: 400px;
+    display: inline-block;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 36px;
+
+}
+section {
+    padding: 16px;
+    padding-top: 36px;
+    border: 2px solid #f1bafc;
+    border-radius: 4px;
+    margin: 16px;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(241,186,252,1);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(241,186,252,1);
+    box-shadow: 1px 1px 5px 0px rgba(241,186,252,1);
+    
+}
+a {
+    color: blanchedalmond;
+}
+
+img:hover {
+    cursor: auto;
+    -webkit-box-shadow: 1px 1px 5px 0px rgba(241,186,252,1);
+    -moz-box-shadow: 1px 1px 5px 0px rgba(241,186,252,1);
+    box-shadow: 1px 1px 5px 0px rgba(241,186,252,1);
+    margin: 4px;
+    height: 100px;
+    width: 100px;
+}
+
+section:hover {
+    background-color: black;
+    transition: background 2s;
+}
+
